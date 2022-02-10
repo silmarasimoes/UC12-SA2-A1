@@ -1,0 +1,52 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "https://apexensino.com.br/wp-content/uploads/2019/02/iStock-1017296544-1024x683-1024x640.jpg",
+      "descricao": "Trabalhar com Spring Java",
+      "salario": "2000",
+      "expira": "22/02/2022"
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "https://blog.fecap.br/wp-content/uploads/Fecap-programador.jpg",
+      "descricao": "Trabalhar com Spring Boot",
+      "salario": 7000,
+      "expira": "14/03/2022"
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "https://www.sos.com.br/Lib/Redimensiona.ashx?img=noticia/20190913092233627.jpg&w=768&h=600",
+      "descricao": "Trabalhar com Angular e Spring",
+      "salario": 10000,
+      "expira": "30/10/2022"
+    },
+    {
+      "id": "5",
+      "nome": "Vaga pra programador(a) Android",
+      "foto": "https://www.techcronus.com/wp-content/uploads/2019/07/hire-android-developer.png",
+      "descricao": "Desenvolver apps android",
+      "salario": "4000",
+      "expira": "25/07/2022"
+    },
+    {
+      "id": "6",
+      "nome": "Programador Nodejs",
+      "foto": "https://coodesh.com/blog/wp-content/uploads/2020/09/node-js-1152x648.png",
+      "descricao": "Programar em Node.js",
+      "salario": "4500",
+      "expira": "2022-02-19"
+    },
+    {
+      "id": "0c18f159-c543-46ab-b767-80dfeaa94a4f",
+      "nome": "Vaga pra programador(a) HTML",
+      "foto": "https://russelservicos.com.br/wp-content/uploads/2020/05/programador-HTML.png",
+      "descricao": "Programar em HTML e CSS desenvolvendo sites",
+      "salario": "1200",
+      "expira": "2022-02-17"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<main role="main" class="container">
+  <div class="jumbotron">
+      <h1>Gerenciamento de vagas</h1>
+      <p class="lead">Adicione, altere ou remova uma vaga</p>
+
+      <div class="card" style="width: 40rem;">
+        <div class="card-body">
+            <h5 class="card-title">Formulário de vaga</h5>
+            <form>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">ID</span>
+                    <input type="text" class="form-control" disabled name="id" [(ngModel)]="vaga.id" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+    
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Nome</span>
+                    <input type="text" class="form-control" name="nome" [(ngModel)]="vaga.nome" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+    
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Link da foto</span>
+                    <input type="text" class="form-control" name="foto" [(ngModel)]="vaga.foto" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+    
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Descrição</span>
+                    <input type="text" class="form-control" name="descricao" [(ngModel)]="vaga.descricao" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+    
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Salário</span>
+                    <input type="text" class="form-control" name="salario" [(ngModel)]="vaga.salario" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Expira em: </span>
+                    <input type="text" class="form-control" placeholder="DD/MM/YYYY" name="expira" [(ngModel)]="vaga.expira" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
+            </form>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <button type="button" class="btn btn-primary" (click)="cadastrar()">Add Vaga</button>
+                    </div>
+                    <div class="col-sm">
+                        <button type="button" class="btn btn-warning" (click)="atualizar(vaga.id)">Update Vaga</button>
+                    </div>
+                    <div class="col-sm">
+                        <button type="button" class="btn btn-danger" (click)="excluir(vaga.id)">Delete Vaga</button>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#" class="btn btn-secundary">List Vagas</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</main>
